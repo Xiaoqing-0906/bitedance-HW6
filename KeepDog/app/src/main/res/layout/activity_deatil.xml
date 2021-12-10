@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="160dp">
+
+    </androidx.viewpager.widget.ViewPager>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:paddingHorizontal="10dp"
+        android:id="@+id/tvVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/teal_200"
+        android:text="狗狗的视频介绍"></TextView>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:paddingHorizontal="10dp"
+        android:id="@+id/tvNameDeatils"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="牧羊犬"></TextView>
+    <TextView
+        android:id="@+id/tvContentDeatils"
+        android:scrollbars="vertical"
+        android:paddingHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:lineSpacingExtra="1.4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="牧羊犬牧羊犬牧羊犬牧羊犬牧羊犬牧羊犬牧羊犬牧羊犬牧羊犬牧羊犬牧羊犬牧羊犬牧羊犬牧羊犬牧羊犬牧羊犬牧羊犬"></TextView>
+
+</LinearLayout>
